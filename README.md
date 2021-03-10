@@ -1,0 +1,1 @@
+Hello! How are you? This is my second google homepage desconstruction from The Odin Project's online program. Here I show basic CSS and HTML skills. There is no function, only layout and style as the focus for this web page. :)
