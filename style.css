@@ -1,0 +1,14 @@
+.top-left-navbar {
+    float: left;
+}
+.top-right-navbar {
+    float: right !important;
+}
+li {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    padding: 4px;
+    margin: 6px auto;
+    background: rgb(221, 51, 51);
+}
