@@ -1,14 +1,29 @@
-.top-left-navbar {
-    float: left;
-}
-.top-right-navbar {
-    float: right !important;
+ul {
+    list-style-type: none;
+    margin: 4px;
+    padding: 6px;
 }
 li {
     display: inline;
-    list-style-type: none;
-    text-align: center;
     padding: 4px;
-    margin: 6px auto;
-    background: rgb(221, 51, 51);
+    font: 18px helevetica;
+}
+input {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    left: 600px;
+    top: 20em;
+    margin: 10px;
+    padding: 0;
+    border-radius: 15px;
+    background: white;
+}
+ img {
+    position: absolute;
+    display: block;
+    width: auto;
+}
+.right-nav {
+    float: right;
 }
