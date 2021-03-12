@@ -8,21 +8,28 @@ li {
     padding: 4px;
     font: 18px helevetica;
 }
-input {
+ main input {
     position: relative;
-    width: 200px;
-    height: 50px;
-    left: 600px;
-    top: 20em;
+    width: auto;
+    height: 100%;
+    left: 50%;
+    top: 50%;
     margin: 10px;
     padding: 0;
     border-radius: 15px;
     background: white;
 }
- img {
+main {
+    background: darkblue;
+    border-radius: 15px;
+    position: relative;
+}
+ main img {
     position: absolute;
-    display: block;
+    margin: 30px;
     width: auto;
+    height: 150px;
+    vertical-align: middle;
 }
 .right-nav {
     float: right;
