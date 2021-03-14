@@ -1,3 +1,6 @@
+body {
+    background:chocolate;
+}
 ul {
     list-style-type: none;
     margin: 4px;
@@ -8,29 +11,30 @@ li {
     padding: 4px;
     font: 18px helevetica;
 }
- main input {
-    position: relative;
-    width: auto;
-    height: 100%;
-    left: 50%;
-    top: 50%;
-    margin: 10px;
-    padding: 0;
-    border-radius: 15px;
-    background: white;
-}
-main {
+ main {
     background: darkblue;
-    border-radius: 15px;
+    left: 50%;
+}
+.google-logo-center {
+    display: block;
+    margin: 0 auto;
     position: relative;
+    width: 272px;
+    height: 92px;
+    padding: 10px;
 }
- main img {
+.search-field-center {
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+input {
+    width: 400px;
+    padding: 15px;
     position: absolute;
-    margin: 30px;
-    width: auto;
-    height: 150px;
-    vertical-align: middle;
+    margin: 0 0 0 -230px;
 }
+
 .right-nav {
     float: right;
 }
