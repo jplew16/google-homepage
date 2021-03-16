@@ -10,37 +10,59 @@ ul {
 li {
     display: inline;
     padding: 4px;
-    font: 18px helevetica;
+    font: 24px helevetica;
 }
  main {
     background: darkblue;
-    left: 50%;
-}
-.google-logo-center {
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    width: 272px;
-    height: 92px;
+    margin: 15px 0;
     padding: 10px;
-    top: 150px;
 }
-.search-field-center {
+ main div {
+    margin: 0 auto;
+    margin: 25px auto;
+    background: magenta;
+    padding: 10px;
+    text-align: center;
+}
+main div button {
+    width: 250px;
+    height: 50px;
+    font-size: 24px;
+    padding: 6px;
+}
+main div input {
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    font-size: 24px;
+    -webkit-appearance: none;
+
+}
+main div:nth-child(1) {
+    width: 272px;
+}
+main div:nth-child(2) {
+    width: 500px;
+}
+main div:nth-child(3) {
+    width: 600px;
+}
+/*
+main div {
     text-align: center;
     margin: 0 auto;
     padding: 15px;
-}
-input {
-    width: 400px;
-    padding: 15px;
     position: absolute;
-    margin: 0 0 0 -230px;
+    margin: 150px 0 0 -230px;
     top: 320px;
 }
-
+*/
 .right-nav {
     float: right;
 }
 .bottom-left-nav {
     bottom: 0;
+    position: fixed;
+    padding: 6px;
 }
+
