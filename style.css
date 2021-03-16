@@ -4,17 +4,35 @@ body {
 }
 ul {
     list-style-type: none;
-    margin: 4px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
     padding: 6px;
 }
-li {
-    display: inline;
-    padding: 4px;
+li a {
+    display: block;
+    padding: 8px;
+    text-align: center;
     font: 24px helevetica;
+}
+li {
+    float: left;
+}
+.top-right-nav {
+    float: right;
+}
+.bottom-right-nav {
+    float: right;
+}
+.bottom-left-nav {
+    bottom: 0;
+    position: fixed;
+    padding: 6px;
 }
  main {
     background: darkblue;
-    margin: 15px 0;
+    margin: 40px 0;
     padding: 10px;
 }
  main div {
@@ -28,7 +46,9 @@ main div button {
     width: 250px;
     height: 50px;
     font-size: 24px;
+    color: black;
     padding: 6px;
+    background: lightgray;
 }
 main div input {
     width: 400px;
@@ -57,12 +77,4 @@ main div {
     top: 320px;
 }
 */
-.right-nav {
-    float: right;
-}
-.bottom-left-nav {
-    bottom: 0;
-    position: fixed;
-    padding: 6px;
-}
 
