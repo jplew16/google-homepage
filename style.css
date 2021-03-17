@@ -6,6 +6,7 @@ nav {
     height: auto;
     overflow: auto;
 }
+/* Set all links to inline-block display type */
 a {
     padding: 8px 16px;
     display: inline-block;
@@ -34,12 +35,14 @@ a {
     margin: 40px 0;
     padding: 10px;
 }
+/* Center main content horizontally and vertically */
  main div {
     margin: 0 auto;
     margin: 25px auto;
     padding: 10px;
     text-align: center;
 }
+/* Center buttons and set their width and height */
 main div button {
     width: 250px;
     height: 50px;
@@ -50,6 +53,7 @@ main div button {
     border-radius: 5px;
     background: lightgray;
 }
+/* Center text field and set a width and height */
 main div input {
     width: 400px;
     height: 50px;
@@ -57,8 +61,8 @@ main div input {
     font-size: 24px;
     border-radius: 25px;
     -webkit-appearance: none;
-
 }
+/* Create divs to contain main content elements with varying widths */
 main div:nth-child(1) {
     width: 272px;
 }
@@ -68,14 +72,3 @@ main div:nth-child(2) {
 main div:nth-child(3) {
     width: 900px;
 }
-/*
-main div {
-    text-align: center;
-    margin: 0 auto;
-    padding: 15px;
-    position: absolute;
-    margin: 150px 0 0 -230px;
-    top: 320px;
-}
-*/
-
