@@ -13,21 +13,26 @@ ul {
 li a {
     display: block;
     padding: 8px;
+    margin: 0 auto;
     text-align: center;
-    font: 24px helevetica;
+    font: 24px "Sans Serif", helevetica;
 }
-li {
+ul li {
+    float: right;
+}
+.top-left-nav li {
     float: left;
 }
-.top-right-nav {
-    float: right;
+.bottom-left-nav li {
+    bottom: 0;
+    float: left;
+    position: relative;
+    padding: 6px;
 }
-.bottom-right-nav {
-    float: right;
-}
-.bottom-left-nav {
+.bottom-right-nav li {
     bottom: 0;
     position: fixed;
+    margin: 0 auto;
     padding: 6px;
 }
  main {
@@ -38,7 +43,6 @@ li {
  main div {
     margin: 0 auto;
     margin: 25px auto;
-    background: magenta;
     padding: 10px;
     text-align: center;
 }
@@ -48,6 +52,7 @@ main div button {
     font-size: 24px;
     color: black;
     padding: 6px;
+    border-radius: 5px;
     background: lightgray;
 }
 main div input {
@@ -55,6 +60,7 @@ main div input {
     height: 50px;
     padding: 10px;
     font-size: 24px;
+    border-radius: 25px;
     -webkit-appearance: none;
 
 }
