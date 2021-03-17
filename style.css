@@ -1,42 +1,36 @@
 body {
-    background: chocolate;
+    background: rgb(24, 26, 27);
     margin: 0;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow: hidden;
-    padding: 6px;
+nav {
+    height: auto;
+    overflow: auto;
 }
-li a {
-    display: block;
-    padding: 8px;
+a {
+    padding: 8px 16px;
+    display: inline-block;
     margin: 0 auto;
+    color: #2596be;
     text-align: center;
-    font: 24px "Sans Serif", helevetica;
+    font: 20px sans-serif, helevetica;
 }
-ul li {
+.top-right-nav {
+    margin: 0 0 50px 0;
+    width: auto;
+    height: auto;
+    overflow: hidden;
     float: right;
 }
-.top-left-nav li {
-    float: left;
-}
-.bottom-left-nav li {
+.bottom-nav {
     bottom: 0;
-    float: left;
-    position: relative;
-    padding: 6px;
+    width: auto;
+    margin: 120px 0 0 0;
 }
-.bottom-right-nav li {
-    bottom: 0;
-    position: fixed;
+.bottom-right-nav {
+    float: right;
     margin: 0 auto;
-    padding: 6px;
 }
  main {
-    background: darkblue;
     margin: 40px 0;
     padding: 10px;
 }
@@ -52,6 +46,7 @@ main div button {
     font-size: 24px;
     color: black;
     padding: 6px;
+    margin: 0 25px;
     border-radius: 5px;
     background: lightgray;
 }
@@ -71,7 +66,7 @@ main div:nth-child(2) {
     width: 500px;
 }
 main div:nth-child(3) {
-    width: 600px;
+    width: 900px;
 }
 /*
 main div {
